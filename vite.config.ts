@@ -16,15 +16,6 @@ export default defineConfig({
     },
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'three-vendor': ['three'],
-          'r3f-vendor': ['@react-three/fiber', '@react-three/drei', '@react-three/postprocessing'],
-          'gsap-vendor': ['gsap'],
-          'motion-vendor': ['framer-motion'],
-        },
-      },
-    },
-  },
+  sourcemap: false,
+},
 })

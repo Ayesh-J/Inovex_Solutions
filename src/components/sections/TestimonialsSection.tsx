@@ -186,7 +186,7 @@ function ArrowBtn({ dir, disabled, onClick }: {
 /* ─── Dot indicators ─────────────────────────────────────────────── */
 function DotIndicators({ count, trackRef, syncArrows }: {
   count: number
-  trackRef: React.RefObject<HTMLDivElement>
+  trackRef: React.RefObject<HTMLDivElement | null>
   syncArrows: () => void
 }) {
   const [active, setActive] = useState(0)
