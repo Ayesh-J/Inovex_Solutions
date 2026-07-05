@@ -19,7 +19,7 @@ export const portfolioProjects: PortfolioProject[] = [
     description: 'A complete digital ecosystem for a modern coaching institute — from enrollment to performance dashboards, parent portals to automated fee management. Built to replace chaos with clarity.',
     industry: 'Education Technology',
     services: ['Web Platform', 'Custom CRM', 'Parent Portal', 'Analytics Dashboard'],
-    url: 'https://www.afterschool.com',
+    url: 'https://www.afterschoolgoa.com',
     color: '#4A90E8',
     accentColor: '#34D399',
     year: '2024',
