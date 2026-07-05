@@ -51,7 +51,7 @@
   --text-2xl:  1.953rem;
   --text-3xl:  2.441rem;
   --text-4xl:  3.052rem;
-  --text-hero: clamp(2.5rem, 8vw, 7rem);
+  --text-hero: clamp(2rem, 9vw, 7rem);
 
   /* ── EASING */
   --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
@@ -170,18 +170,18 @@ body {
 
 .text-display {
   font-family: var(--font-display);
-  font-size: var(--text-4xl);
+  font-size: clamp(1.6rem, 6vw, 3.052rem);
   font-weight: 700;
   letter-spacing: -0.03em;
-  line-height: 1.05;
+  line-height: 1.1;
 }
 
 .text-heading {
   font-family: var(--font-display);
-  font-size: var(--text-3xl);
+  font-size: clamp(1.4rem, 5vw, 2.441rem);
   font-weight: 600;
   letter-spacing: -0.02em;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .text-label {

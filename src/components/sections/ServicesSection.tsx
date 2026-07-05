@@ -131,7 +131,7 @@ function ServiceStrip({ service, index, color }: {
             {service.index}
           </span>
           <div>
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-2xl)', fontWeight: 700, letterSpacing: '-0.025em', color: 'var(--color-pure)', marginBottom: '0.2rem' }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.2rem, 5vw, 1.953rem)', fontWeight: 700, letterSpacing: '-0.025em', color: 'var(--color-pure)', marginBottom: '0.2rem' }}>
               {service.title}
             </h3>
             <span style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-sm)', color, fontWeight: 500, letterSpacing: '0.06em' }}>
