@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://inovexsol.com/sitemap.xml
